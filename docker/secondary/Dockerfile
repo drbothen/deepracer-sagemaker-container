@@ -56,8 +56,8 @@ ENV PYTHONUNBUFFERED 1
 
 # Versioning
 ARG IMG_VERSION
-LABEL maintainer "AWS DeepRacer Community - deepracing.io"
-LABEL version $IMG_VERSION
+LABEL maintainer="AWS DeepRacer Community - deepracing.io"
+LABEL version=$IMG_VERSION
 
 # Starts framework
 ENTRYPOINT ["bash", "-m", "start.sh", "train"]
